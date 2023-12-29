@@ -98,39 +98,10 @@ def if_present(password, task):
         elif sum==0:
             return 0
 
-
-        # data=True
-        # sum=0
-        # line_number=0
-        # while data:
-        #     line_number+=1
-        #     data=f.readline()
-        #     if task in data:
-        #         m=input("The password for this keyword is already present.\nDo you wish to overwrite it\nPress Y for Yes\nPress n for No")
-        #         with open("Passwords.txt", "w") as f:
-        #             for i in range(1,line_number+2):
-        #                 f.writeline(data)
-        #                 if i==line_number:
-        #                     f.readline
-                    
-
-                # if m=="Y" or "y":
-                #     length_of_pass=int(input("Pls enter the length of the new password which you want to replace the previous one with:"))
-                #     data[line_number]=New_password(length_of_pass, 1) + "    "+ task
-                #     with open("Passwords.txt", "w", encoding='utf-8') as f:
-                #         f.write(data)
-                    # break
-        
-
         
 
 def Encoder(password, carry):
-            # if carry==0:
-            #     Task=input("Where do you wish to use this password: ").lower()
-            #     if_present(password,Task)
             
-            
-
             blueprint=['C', '?', "'", '{', '8', '>', '|', 'Z', '9', '5', 'U', 'q', 'J', '~', 'b', 'A', '1', ';', 'u', '2', 'h', 'X', 's', '4', 'K', '0', '6', 'S', 'c', 'e', ')', 'm', 'i', '*', 'd', 'E', 'Y', '!', 'B', 'a', 'o', 'r', 'N', '''\\''', 't', '"', '[', '&', 'M', 'g', ':', 'f', 'k', 'z', '$', 'y', 'x', '7', ',', 'V', 'D', '(', '3', 'j', 'L', '@', 'W', '%', ']', 'T', 'R', '+', '`', '=', 'P', '<', 'H', '^', '}', '-', 'F', 'p', '.', 'w', 'G', 'v', 'I', 'O', 'l', 'Q', 'n', '_', '#', '/']
             list1=[]
             # new=[]
